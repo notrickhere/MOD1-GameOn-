@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/56884664328709.5ace76da9de89.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wholeGame{
+    border: white solid;
+    color: aliceblue;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
+.scoreBoard{
+    border: white solid;
+    background-color: white;
+    opacity: 0.6;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.p1ScoreBox{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.p2ScoreBox{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.roundCounterBox{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.timerBox{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.gameBoard{
+    border: white solid;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.square{
+    border: white solid;
+    background-color: white;
+
+    color: black;
+    height: 50px;
+    width: 150px;
+    
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.square:hover {
+    border: white solid;
+    
+    height: 50px;
+    width: 150px;
+    
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    /* background-color: salmon !important;  */
+    background-image: url('https://www.pngitem.com/pimgs/m/517-5171784_kimetsunoyaiba-demonslayer-nezuko-tanjiro-zenitsu-nezuko-in-basket.png');
+    background-size: cover;
+    background-position: center;
+} 
+.pressButtons{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    opacity: 0.6;
+}
+.preRollText{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
